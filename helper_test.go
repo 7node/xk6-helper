@@ -7,7 +7,7 @@ import (
 )
 
 func TestHexDecode(t *testing.T) {
-	helper := New()
+	helper := &Helper{}
 
 	decoded := helper.HexDecode("486578206465636f6465")
 
