@@ -1,6 +1,6 @@
 module github.com/7node/xk6-helper
 
-go 1.23.2
+go 1.22.7
 
 require (
 	github.com/zeebo/assert v1.3.1
